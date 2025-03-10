@@ -8,28 +8,26 @@
     
 </head>
 <body>
-
     <div class="login-container">
         <h2>Login</h2>
-        <form id="loginForm">
-            <div class="input-container">
-
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" placeholder="Enter Username" required>
-                <p id="usernameError" class="error-message" style="display: none;">Username cannot be empty.</p>
-                <p id="usernameLengthError" class="error-message" style="display: none;">Username must be atleast 5 characters.</p> 
-            </div>
-            <div class="input-container">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="Enter Password" required>
-                <p id="passwordError" class="error-message" style="display: none;">Password cannot be empty.</p>
-                <p id="passwordLengthError" class="error-message" style="display: none;">Password must be atleast 6 characters long.</p>
-            </div>
-            <a href="https://accounts.google.com/signin/v2/usernamerecovery?continue=https%3A%2F%2Fmyaccount.google.com%2F&ddm=1&dsh=S-1256110917%3A1739985796029499&ec=GAlAwAE&flowEntry=AddSession&flowName=GlifWebSignIn&hl=en&service=accountsettings&authuser=0" class="forgot">Forgot password?</p>
-            <button type="submit">Login</button>
-        </form>
+            <form id="loginForm">
+                <div class="input-container">
+                    <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" placeholder="Enter Username" required>
+                            <p id="usernameError" class="error-message" style="display: none;">Username cannot be empty.</p>
+                                <p id="usernameLengthError" class="error-message" style="display: none;">Username must be atleast 5 characters.</p> 
+                </div>
+                    <div class="input-container">
+                        <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                                <p id="passwordError" class="error-message" style="display: none;">Password cannot be empty.</p>
+                                    <p id="passwordLengthError" class="error-message" style="display: none;">Password must be atleast 6 characters long.</p>
+                    </div>
+                        <a href="https://accounts.google.com/signin/v2/usernamerecovery?continue=https%3A%2F%2Fmyaccount.google.com%2F&ddm=1&dsh=S-1256110917%3A1739985796029499&ec=GAlAwAE&flowEntry=AddSession&flowName=GlifWebSignIn&hl=en&service=accountsettings&authuser=0" class="forgot">Forgot password?</p>
+                            <button type="submit">Login</button>
+            </form>
     </div>
-<script src="app.js"></script>
+        <script src="app.js"></script>
 </body>
 </html>
 
